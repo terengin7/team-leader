@@ -5,9 +5,6 @@ from openai import OpenAI
 from openai.types.beta.assistant_stream_event import ThreadMessageDelta
 from openai.types.beta.threads.text_delta_block import TextDeltaBlock
 import streamlit as st
-import pandas as pd
-import numpy as np
-import os
 
 ASSISTANT_ID = "asst_0CweJUSaeYD0cNqzVkUZV4cY"
 
